@@ -130,3 +130,4 @@ export const FilterBy = ({ data, edition }) => {
     </div>
   );
 };
+export const dynamic = "force-static";

@@ -8,7 +8,7 @@ export const Header = ({ defaultTheme }) => {
       <div className="flex items-center gap-6 py-4">
         <Logo />
         <h1 className="text-3xl font-bold tracking-tight text-slate-800 dark:text-white md:text-6xl">
-          Tech Radar
+          Locaweb - Tech Radar
         </h1>
         <EditionSelector inline />
         <div className="flex-1" />
@@ -18,3 +18,4 @@ export const Header = ({ defaultTheme }) => {
     </>
   );
 };
+export const dynamic = "force-static";

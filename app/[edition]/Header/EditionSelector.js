@@ -82,3 +82,4 @@ export const EditionSelector = ({ inline }) => {
     </Menu>
   );
 };
+export const dynamic = "force-static";

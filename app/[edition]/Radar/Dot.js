@@ -47,6 +47,7 @@ export const Dot = ({
           cy={cy}
           onMouseEnter={() => onMouseEnter({ ref, ...props })}
           onMouseLeave={onMouseLeave}
+          
         ></circle>
         {trend !== "NEW" && trend !== null && (
           <path d={d} strokeWidth="1" fill="none" />
@@ -55,3 +56,4 @@ export const Dot = ({
     </Link>
   );
 };
+export const dynamic = "force-static";

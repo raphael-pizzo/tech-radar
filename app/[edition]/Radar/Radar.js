@@ -134,3 +134,4 @@ export const TechRadarChart = ({ data, edition }) => {
     </>
   );
 };
+export const dynamic = "force-static";

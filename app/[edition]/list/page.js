@@ -11,3 +11,4 @@ const List = async ({ params }) => {
 };
 
 export default List;
+export const dynamic = "force-static";

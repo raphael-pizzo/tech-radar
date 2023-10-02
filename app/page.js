@@ -5,3 +5,4 @@ const Main = () => {
 };
 
 export default Main;
+export const dynamic = "force-static";

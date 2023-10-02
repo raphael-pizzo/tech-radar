@@ -43,3 +43,4 @@ export const ThemePicker = ({ defaultTheme }) => {
     </label>
   );
 };
+export const dynamic = "force-static";

@@ -13,3 +13,4 @@ export const Logo = () => (
     </div>
   </div>
 );
+export const dynamic = "force-static";

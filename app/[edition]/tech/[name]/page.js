@@ -31,3 +31,4 @@ const Tech = async ({ params }) => {
 };
 
 export default Tech;
+export const dynamic = "force-static";

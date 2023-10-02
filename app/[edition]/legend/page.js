@@ -46,3 +46,4 @@ const Legend = () => {
 };
 
 export default Legend;
+export const dynamic = "force-static";

@@ -51,3 +51,4 @@ export const SectionNavigator = ({ edition }) => {
     </div>
   );
 };
+export const dynamic = "force-static";

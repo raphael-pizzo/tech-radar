@@ -7,3 +7,4 @@ const Edition = async ({ params }) => {
 };
 
 export default Edition;
+export const dynamic = "force-static";

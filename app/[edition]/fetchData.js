@@ -142,3 +142,4 @@ export const getTechItem = async (edition, name) => {
   const item = csvData.find((item) => item.name === name);
   return { ...item, trend: getTrend(item) };
 };
+export const dynamic = "force-static";

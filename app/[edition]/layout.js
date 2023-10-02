@@ -16,3 +16,4 @@ const Layout = ({ children, params }) => {
   );
 };
 export default Layout;
+export const dynamic = "force-static";

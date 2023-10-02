@@ -54,3 +54,4 @@ export const Tooltip = ({
       )
     : null;
 };
+export const dynamic = "force-static";
