@@ -2,8 +2,8 @@ import "./globals.css";
 import { cookies } from "next/headers";
 
 export const metadata = {
-  title: "Skai Tech Radar",
-  description: "Skai Tech Radar",
+  title: "Locaweb Tech Radar",
+  description: "Locaweb Tech Radar",
 };
 
 export default function RootLayout({ children }) {
