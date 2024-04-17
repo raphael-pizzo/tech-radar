@@ -7,7 +7,7 @@ const Legend = () => {
       <li>
         <h4 className="font-thin text-2xl">Adopt</h4>
         <p>
-          The following items are the Skai standard and are widely used in our
+          The following items are the Locaweb Company standard and are widely used in our
           production systems, accompanied by clear guidelines, best practices
           and optionally training and enablement.
           <br />
@@ -37,7 +37,7 @@ const Legend = () => {
       <li>
         <h4 className="font-thin text-2xl">Hold</h4>
         <p>
-          The following items shouldn’t be used in new projects in Skai. If it
+          The following items shouldn’t be used in new projects in Locaweb Company. If it
           already exists, keep it in minimal maintenance mode or deprecate it.
         </p>
       </li>

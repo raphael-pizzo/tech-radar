@@ -14,7 +14,7 @@ export const SectionNavigator = ({ edition }) => {
   return (
     <div className="px-4 py-5 sm:px-6">
       <span className="isolate inline-flex rounded-md shadow-sm">
-        <Link href={`/${edition}`}>
+        <Link href={`/`}>
           <div
             className={`${
               segment === null
@@ -25,7 +25,7 @@ export const SectionNavigator = ({ edition }) => {
             <RadarIcon className="h-6" />
           </div>
         </Link>
-        <Link href={`/${edition}/list`}>
+        <Link href={`/list`}>
           <div
             className={`${
               segment === "list"
@@ -36,7 +36,7 @@ export const SectionNavigator = ({ edition }) => {
             <ListBulletIcon className="h-6" />
           </div>
         </Link>
-        <Link href={`/${edition}/legend`}>
+        <Link href={`/legend`}>
           <div
             className={`${
               segment === "legend"

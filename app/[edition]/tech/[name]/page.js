@@ -8,6 +8,7 @@ const trendString = {
 };
 
 const Tech = async ({ params }) => {
+  console.log('aqui')
   const { quadrant, ring, name, description, trend } = await getTechItem(
     params.edition,
     decodeURIComponent(params.name)

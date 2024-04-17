@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={theme?.value}>
       <body className="bg-slate-50 text-slate-700 dark:text-slate-200 dark:bg-slate-950 pb-6 min-h-screen">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-5xl">{children}</div>
+          <div className="mx-auto max-w-5x1 max-h-10">{children}</div>
         </div>
       </body>
     </html>

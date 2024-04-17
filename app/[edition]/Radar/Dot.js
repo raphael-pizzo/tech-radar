@@ -25,7 +25,7 @@ export const Dot = ({
 
   return (
     <Link
-      href={`/${edition}/tech/${encodeURIComponent(props.name)}`}
+    href={`/`}
       className="svg-anchor"
     >
       <g>
